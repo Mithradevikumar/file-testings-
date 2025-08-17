@@ -21,7 +21,7 @@ load_dotenv()
 
 app = Flask(__name__)
 
-API_URL        = "https://api.runpod.ai/v2/yjkyakuvnz1esw"
+API_URL        = ""
 API_TOKEN      = os.environ.get("API_TOKEN")
 BEARER_TOKEN   = os.environ.get("BEARER_TOKEN")
 AZURE_CONN_STR = os.environ.get("AZURE_CONN_STR")
